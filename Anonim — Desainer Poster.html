@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Anonim — Desainer Poster</title>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@800;900&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#1c1c1e;--ink:#e4e4e2;--mute:#8a8a88;--line:#3a3a3c;--p1:#2b2b2d;--p2:#4a4a4c;--p3:#a9a9a7;--p4:#d8d8d5;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#dcdcda;--ink:#1d1d1f;--mute:#6f6f6d;--line:#b9b9b6;--p1:#cfcfcc;--p2:#9a9a97;--p3:#4d4d4f;--p4:#232325}}
+:root[data-theme="light"]{--bg:#dcdcda;--ink:#1d1d1f;--mute:#6f6f6d;--line:#b9b9b6;--p1:#cfcfcc;--p2:#9a9a97;--p3:#4d4d4f;--p4:#232325}
+:root[data-theme="dark"]{--bg:#1c1c1e;--ink:#e4e4e2;--mute:#8a8a88;--line:#3a3a3c;--p1:#2b2b2d;--p2:#4a4a4c;--p3:#a9a9a7;--p4:#d8d8d5}
+*{box-sizing:border-box;margin:0}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{background:var(--bg);color:var(--ink);font-family:"DM Mono",ui-monospace,Menlo,monospace;font-size:13px;letter-spacing:.04em;overflow-x:hidden;min-height:100vh}
+.wrap{max-width:1280px;margin:0 auto;padding:28px clamp(18px,4vw,48px) 40px}
+header{display:flex;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:14px;color:var(--mute);text-transform:uppercase}
+h1{font-family:Archivo,Impact,"Arial Narrow",sans-serif;font-weight:900;text-transform:uppercase;font-size:clamp(46px,11.5vw,168px);line-height:.86;letter-spacing:-.035em;margin:clamp(28px,7vw,90px) 0 26px}
+h1 span{color:var(--mute)}
+.lead{max-width:34ch;text-transform:uppercase;line-height:1.7;color:var(--mute)}
+.strip{margin:clamp(40px,7vw,90px) calc(-1 * clamp(18px,4vw,48px));overflow:hidden;border-block:1px solid var(--line);padding:22px 0}
+.track{display:flex;gap:22px;width:max-content;animation:drift 60s linear infinite}
+.strip:hover .track{animation-play-state:paused}
+@keyframes drift{to{transform:translateX(-50%)}}
+.poster{flex:none;width:clamp(180px,22vw,290px);aspect-ratio:4/5;background:var(--p1);transition:transform .5s cubic-bezier(.2,.7,.2,1)}
+.poster:nth-child(even){margin-top:34px}
+.poster:hover{transform:translateY(-8px)}
+.poster svg{display:block;width:100%;height:100%}
+.contact{display:grid;grid-template-columns:1fr;border-top:1px solid var(--line)}
+.contact a{display:grid;grid-template-columns:44px 1fr auto;align-items:baseline;padding:20px 0;border-bottom:1px solid var(--line);color:var(--ink);text-decoration:none;text-transform:uppercase;transition:padding .35s,color .35s}
+.contact a b{font-family:Archivo,Impact,sans-serif;font-weight:800;font-size:clamp(26px,4.6vw,58px);letter-spacing:-.02em;line-height:1}
+.contact a i{font-style:normal;color:var(--mute)}
+.contact a em{font-style:normal;transition:transform .35s}
+.contact a:hover{padding-left:14px;color:var(--mute)}
+.contact a:hover em{transform:translate(4px,-4px)}
+.contact a:focus-visible{outline:1px solid var(--ink);outline-offset:4px}
+footer{margin-top:26px;color:var(--mute);display:flex;justify-content:space-between;text-transform:uppercase}
+@media (prefers-reduced-motion:reduce){.track{animation:none}.strip{overflow-x:auto}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><span>A—</span><span>Poster / Tipografi</span></header>
+<h1>Anonim<span>,</span><br><span>desainer poster.</span></h1>
+<p class="lead">Karya visual berani dengan fokus pada eksperimen dan huruf.</p>
+
+<div class="strip"><div class="track" id="track">
+<div class="poster"><svg viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice"><rect width="400" height="500" fill="var(--p4)"/><text x="-30" y="470" font-family="Archivo,Impact,sans-serif" font-weight="900" font-size="560" fill="var(--p1)">A</text><text x="24" y="44" font-family="DM Mono,monospace" font-size="13" fill="var(--p1)">NO. 01</text></svg></div>
+<div class="poster"><svg viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice"><rect width="400" height="500" fill="var(--p2)"/><g fill="none" stroke="var(--p4)" stroke-width="2"><circle cx="200" cy="250" r="40"/><circle cx="200" cy="250" r="80"/><circle cx="200" cy="250" r="120"/><circle cx="200" cy="250" r="160"/><circle cx="200" cy="250" r="200"/></g><text x="24" y="474" font-family="DM Mono,monospace" font-size="13" fill="var(--p4)">RING / 02</text></svg></div>
+<div class="poster"><svg viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice"><defs><filter id="b"><feGaussianBlur stdDeviation="7 0"/></filter></defs><rect width="400" height="500" fill="var(--p1)"/><g font-family="Archivo,Impact,sans-serif" font-weight="900" font-size="150" fill="var(--p3)" filter="url(#b)"><text x="20" y="190">NO</text><text x="20" y="330">TIME</text></g><text x="24" y="474" font-family="DM Mono,monospace" font-size="13" fill="var(--p3)">STATIC 03</text></svg></div>
+<div class="poster"><svg viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice"><rect width="400" height="500" fill="var(--p3)"/><g fill="var(--p1)"><rect x="0" y="0" width="40" height="500"/><rect x="80" y="0" width="30" height="500"/><rect x="150" y="0" width="20" height="500"/><rect x="210" y="0" width="12" height="500"/><rect x="262" y="0" width="7" height="500"/><rect x="308" y="0" width="3" height="500"/></g><text x="250" y="474" font-family="DM Mono,monospace" font-size="13" fill="var(--p1)">LINE 04</text></svg></div>
+<div class="poster"><svg viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice"><rect width="400" height="500" fill="var(--p4)"/><g font-family="Archivo,Impact,sans-serif" font-weight="900" fill="var(--p1)"><text x="40" y="330" font-size="360">1</text><text x="190" y="330" font-size="260" fill="var(--p2)">1</text><text x="300" y="330" font-size="170" fill="var(--p3)">1</text></g><text x="24" y="474" font-family="DM Mono,monospace" font-size="13" fill="var(--p1)">ANGKA 05</text></svg></div>
+</div></div>
+
+<nav class="contact" aria-label="Kontak">
+<a href="https://linktr.ee/bjirka" target="_blank" rel="noopener"><i>01</i><b>Linktree</b><em>↗</em></a>
+<a href="https://me.muz.li/magellanic" target="_blank" rel="noopener"><i>02</i><b>Muzzli</b><em>↗</em></a>
+<a href="https://www.behance.net/stelarstar" target="_blank" rel="noopener"><i>03</i><b>Behance</b><em>↗</em></a>
+<a href="https://patreon.com/SetarehKieyan?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink" target="_blank" rel="noopener"><i>04</i><b>Patreon</b><em>↗</em></a>
+<a href="https://www.facebook.com/sapa.koen.5895" target="_blank" rel="noopener"><i>05</i><b>Facebook</b><em>↗</em></a>
+</nav>
+<footer><span>Anonim</span><span id="y"></span></footer>
+</div>
+<script>
+var t=document.getElementById('track');
+if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches){Array.from(t.children).forEach(function(n){t.appendChild(n.cloneNode(true))});}
+document.getElementById('y').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
