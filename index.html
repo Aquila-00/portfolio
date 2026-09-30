@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Anonim — Poster Design</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 fill=%27%23242425%27/%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%276%27 fill=%27%23dcdcda%27/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Hanken+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#e2e2e0;--ink:#242425;--mute:#7b7b7c;--line:#bdbdbb;--hover:#242425;--hoverInk:#e2e2e0;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1c1c1d;--ink:#dcdcda;--mute:#88888a;--line:#3a3a3c;--hover:#dcdcda;--hoverInk:#1c1c1d}}
+:root[data-theme="dark"]{--bg:#1c1c1d;--ink:#dcdcda;--mute:#88888a;--line:#3a3a3c;--hover:#dcdcda;--hoverInk:#1c1c1d}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 "Hanken Grotesk",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+a:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+.wrap{max-width:1180px;margin:0 auto;padding:clamp(28px,6vw,72px) clamp(20px,5vw,56px)}
+header{display:flex;flex-direction:column;gap:14px;margin-bottom:clamp(36px,7vw,88px)}
+h1{font:800 clamp(64px,17vw,220px)/.86 Syne,"Helvetica Neue",Arial,sans-serif;letter-spacing:-.045em;margin:0;text-transform:lowercase}
+header p{margin:0;color:var(--mute);max-width:34ch}
+.rail{display:flex;align-items:flex-end;gap:clamp(14px,2.4vw,28px);overflow-x:auto;scroll-snap-type:x proximity;margin:0 calc(-1 * clamp(20px,5vw,56px));padding:0 clamp(20px,5vw,56px) 18px;scrollbar-width:thin;scrollbar-color:var(--line) transparent}
+.p{flex:0 0 auto;scroll-snap-align:start;margin:0;opacity:0;transform:translateY(24px);animation:in .8s cubic-bezier(.2,.7,.2,1) forwards}
+.p:nth-child(2){animation-delay:.08s}.p:nth-child(3){animation-delay:.16s}.p:nth-child(4){animation-delay:.24s}.p:nth-child(5){animation-delay:.32s}.p:nth-child(6){animation-delay:.4s}
+@keyframes in{to{opacity:1;transform:none}}
+.p svg{display:block;height:clamp(300px,52vh,470px);width:auto;box-shadow:0 1px 0 rgba(0,0,0,.08),0 22px 40px -22px rgba(0,0,0,.5)}
+.p figcaption{font-size:13px;color:var(--mute);margin-top:10px}
+.links{margin:clamp(56px,9vw,112px) 0 0;padding:0;list-style:none;max-width:760px}
+.links li{border-top:1px solid var(--line)}
+.links li:last-child{border-bottom:1px solid var(--line)}
+.links a{display:flex;justify-content:space-between;align-items:baseline;gap:20px;padding:18px 6px;font:700 clamp(22px,3.6vw,34px)/1.1 Syne,Arial,sans-serif;letter-spacing:-.02em;transition:background .2s,color .2s,padding .2s}
+.links a span{font:400 14px "Hanken Grotesk",sans-serif;letter-spacing:0;color:var(--mute);text-align:right;transition:color .2s}
+.links a:hover,.links a:focus-visible{background:var(--hover);color:var(--hoverInk);padding-left:18px;padding-right:18px}
+.links a:hover span,.links a:focus-visible span{color:var(--hoverInk)}
+footer{margin-top:56px;color:var(--mute);font-size:14px}
+@media (prefers-reduced-motion:reduce){.p{animation:none;opacity:1;transform:none}.links a{transition:none}}
+@media (max-width:520px){.links a span{display:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<h1>Anonim</h1>
+<p>Poster design.</p>
+</header>
+
+<div class="rail" role="list" aria-label="Poster samples">
+
+<figure class="p" role="listitem"><svg viewBox="0 0 300 420" width="300" height="420" role="img" aria-label="Concentric circles poster">
+<rect width="300" height="420" fill="#2b2b2c"/>
+<g fill="none" stroke="#8d8d8e" stroke-width="1"><circle cx="150" cy="190" r="30"/><circle cx="150" cy="190" r="55"/><circle cx="150" cy="190" r="80"/><circle cx="150" cy="190" r="105"/><circle cx="150" cy="190" r="130"/></g>
+<circle cx="150" cy="190" r="14" fill="#d6d6d4"/>
+<text x="24" y="382" font-family="Syne,Arial" font-weight="800" font-size="34" fill="#d6d6d4" letter-spacing="-1">Orbit</text>
+<text x="24" y="60" font-family="Arial" font-size="9" fill="#8d8d8e">Untitled series</text></svg><figcaption>Orbit</figcaption></figure>
+
+<figure class="p" role="listitem"><svg viewBox="0 0 300 380" width="300" height="380" role="img" aria-label="Large letterform poster">
+<rect width="300" height="380" fill="#c9c9c7"/>
+<text x="-14" y="330" font-family="Syne,Arial" font-weight="800" font-size="360" fill="#3a3a3b" letter-spacing="-20">A</text>
+<rect x="196" y="40" width="72" height="72" fill="#f0f0ee"/>
+<rect x="24" y="336" width="120" height="2" fill="#242425"/>
+<text x="24" y="358" font-family="Arial" font-size="10" fill="#242425">Letterform study</text></svg><figcaption>Letter A</figcaption></figure>
+
+<figure class="p" role="listitem"><svg viewBox="0 0 300 460" width="300" height="460" role="img" aria-label="Vertical lines poster">
+<rect width="300" height="460" fill="#efefed"/>
+<g fill="#242425"><rect x="30" y="40" width="6" height="300"/><rect x="52" y="40" width="6" height="260"/><rect x="74" y="40" width="6" height="220"/><rect x="96" y="40" width="6" height="180"/><rect x="118" y="40" width="6" height="140"/><rect x="140" y="40" width="6" height="100"/><rect x="162" y="40" width="6" height="60"/></g>
+<rect x="196" y="200" width="74" height="140" fill="#9c9c9d"/>
+<text x="30" y="396" font-family="Syne,Arial" font-weight="800" font-size="40" fill="#242425" letter-spacing="-1.5">Descent</text>
+<text x="30" y="424" font-family="Arial" font-size="10" fill="#6b6b6c">Rhythm and pause</text></svg><figcaption>Descent</figcaption></figure>
+
+<figure class="p" role="listitem"><svg viewBox="0 0 300 400" width="300" height="400" role="img" aria-label="Half circles poster">
+<rect width="300" height="400" fill="#6f6f70"/>
+<path d="M30 300a120 120 0 0 1 240 0z" fill="#e9e9e7"/>
+<path d="M70 300a80 80 0 0 1 160 0z" fill="#3c3c3d"/>
+<path d="M110 300a40 40 0 0 1 80 0z" fill="#b5b5b4"/>
+<rect x="30" y="300" width="240" height="1.5" fill="#e9e9e7"/>
+<text x="30" y="350" font-family="Syne,Arial" font-weight="800" font-size="30" fill="#e9e9e7" letter-spacing="-1">Grey dawn</text>
+<text x="30" y="56" font-family="Arial" font-size="9" fill="#d0d0ce">Limited edition print</text></svg><figcaption>Grey dawn</figcaption></figure>
+
+<figure class="p" role="listitem"><svg viewBox="0 0 300 440" width="300" height="440" role="img" aria-label="Halftone dots poster">
+<defs><pattern id="d" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="7" cy="7" r="4.6" fill="#242425"/></pattern>
+<pattern id="d2" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="7" cy="7" r="2" fill="#242425"/></pattern>
+<pattern id="d3" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="7" cy="7" r="6.4" fill="#242425"/></pattern></defs>
+<rect width="300" height="440" fill="#d3d3d1"/>
+<rect x="24" y="24" width="252" height="90" fill="url(#d2)"/>
+<rect x="24" y="114" width="252" height="90" fill="url(#d)"/>
+<rect x="24" y="204" width="252" height="90" fill="url(#d3)"/>
+<text x="24" y="352" font-family="Syne,Arial" font-weight="800" font-size="46" fill="#242425" letter-spacing="-2">Press</text>
+<text x="24" y="382" font-family="Arial" font-size="10" fill="#4b4b4c">Print texture experiment</text></svg><figcaption>Press</figcaption></figure>
+
+<figure class="p" role="listitem"><svg viewBox="0 0 300 390" width="300" height="390" role="img" aria-label="Diagonal poster">
+<rect width="300" height="390" fill="#f4f4f2"/>
+<polygon points="0,0 300,0 300,190 0,300" fill="#4a4a4b"/>
+<polygon points="0,300 300,190 300,270 0,390" fill="#a9a9a8"/>
+<circle cx="220" cy="90" r="34" fill="#f4f4f2"/>
+<text x="26" y="352" font-family="Syne,Arial" font-weight="800" font-size="28" fill="#242425" letter-spacing="-1">Slant</text>
+<text x="26" y="52" font-family="Arial" font-size="9" fill="#d0d0ce">Composition poster</text></svg><figcaption>Slant</figcaption></figure>
+
+</div>
+
+<ul class="links">
+<li><a href="https://linktr.ee/bjirka" target="_blank" rel="noopener">Linktree<span>linktr.ee/bjirka</span></a></li>
+<li><a href="https://pin.it/n0CR2vXPB" target="_blank" rel="noopener">Pinterest<span>pin.it/n0CR2vXPB</span></a></li>
+<li><a href="https://me.muz.li/magellanic" target="_blank" rel="noopener">Muzli<span>me.muz.li/magellanic</span></a></li>
+<li><a href="https://www.behance.net/stelarstar" target="_blank" rel="noopener">Behance<span>behance.net/stelarstar</span></a></li>
+<li><a href="https://patreon.com/SetarehKieyan?utm_medium=unknown&amp;utm_source=join_link&amp;utm_campaign=creatorshare_creator&amp;utm_content=copyLink" target="_blank" rel="noopener">Patreon<span>patreon.com/SetarehKieyan</span></a></li>
+<li><a href="http://www.redbubble.com/people/needlegalaxy" target="_blank" rel="noopener">Redbubble<span>redbubble.com/people/needlegalaxy</span></a></li>
+<li><a href="https://www.facebook.com/sapa.koen.5895" target="_blank" rel="noopener">Facebook<span>facebook.com/sapa.koen.5895</span></a></li>
+<li><a href="https://www.facebook.com/profile.php?id=61574520867371" target="_blank" rel="noopener">Facebook (second)<span>facebook.com/profile.php?id=61574520867371</span></a></li>
+<li><a href="https://www.youtube.com/@Minsatirr" target="_blank" rel="noopener">YouTube<span>youtube.com/@Minsatirr</span></a></li>
+</ul>
+
+<footer>© 2026 Anonim</footer>
+</div>
+</body>
+</html>
